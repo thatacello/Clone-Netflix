@@ -1,0 +1,23 @@
+/* declaração de variáveis no CSS */
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* elementos não ultrapassam os limites da caixa */
+}
+@font-face {
+    font-family: "Bebas";
+    src: url("/font/BebasNeue.woff");
+}
+body {
+    background-color: var(--preto);
+    font-family: "Bebas", 'Times New Roman', Times, serif;
+}
+header .container {
+
+}
