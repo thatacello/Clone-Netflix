@@ -42,7 +42,7 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) 100%), url(/img/breaking_bad.jpg);
     background-size: cover;
-    height: 400px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,9 +53,16 @@ header nav a:hover {
     margin-bottom: 40px;
 }
 .filme-principal .titulo {
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.filme-principal .container {
+    width: 70%;
+    margin-left: 20px;
+}
+.filme-principal .botoes {
+    margin-left: 20px;
 }
 .botao {
     background-color: rgba(0, 0, 0, .5);
@@ -71,4 +78,7 @@ header nav a:hover {
 .botao:hover {
     background-color: white;
     color: black;
+}
+.botao i {
+    margin-right: 8px;
 }
