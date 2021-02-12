@@ -27,7 +27,7 @@ header .container {
 header .logo {
     color: var(--vermelho);
     font-family: 'Bebas';
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 5px;
 }
 header nav a {
@@ -86,4 +86,7 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+.carrossel-filmes {
+    margin-top: 10px;
 }
